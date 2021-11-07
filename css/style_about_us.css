@@ -1,0 +1,19 @@
+.about_us {
+    display: flex;
+    justify-content: space-between;
+    padding: 5em 10em;
+    flex-wrap: wrap;
+}
+
+.about_us_info {
+    width: 440px;
+    height: 350px;
+    padding: 3em 4em;
+    margin: 2em;
+    background: #FFFCF0;
+    border: dashed 2px #85603F;
+}
+
+.about_us_img {
+    margin: 2em;
+}

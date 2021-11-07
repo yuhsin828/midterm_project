@@ -33,6 +33,9 @@ a {
     justify-content: space-between;
     background-color: #FEFEFE;
     border-bottom: solid #B07D31 0.2em;
+    /* position: fixed;
+    top: 0;
+    width: 100%; */
 }
 
 .header_logo {
@@ -156,7 +159,7 @@ a {
     padding: 5em 10em;
 }
 
-.menu_title {
+.main_title {
     font-family: 'Noto Serif TC', serif;
     font-size: 2.4em;
     font-weight: 700px;
