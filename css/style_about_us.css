@@ -3,15 +3,17 @@
     justify-content: space-between;
     padding: 5em 10em;
     flex-wrap: wrap;
+    align-items: center;
 }
 
 .about_us_info {
     width: 440px;
-    height: 350px;
+    height: 280px;
     padding: 3em 4em;
     margin: 2em;
-    background: #FFFCF0;
-    border: dashed 2px #85603F;
+    background-image: url("../image/about_us_info_bg.png");
+    background-repeat: no-repeat;
+    background-size: contain;
 }
 
 .about_us_img {
