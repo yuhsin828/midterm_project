@@ -4,7 +4,7 @@
 }
 
 
-/* --------------------bouquet aside-------------------- */
+/* --------------------bouquet_aside-------------------- */
 
 .bouquet_aside {
     width: 20%;
@@ -22,7 +22,7 @@
 
 .list_title {
     color: #85603F;
-    margin-bottom: 1em;
+    margin-bottom: 20px;
     font-size: 20px;
 }
 
@@ -30,8 +30,14 @@
     list-style: none;
     margin-left: 20px;
     margin-bottom: 40px;
-    padding-left: 0px;
+    padding-left: 0;
     border-left: solid #B07D31 2px;
+}
+
+.list_link {
+    padding: 10px 2px;
+    color: #B07D31;
+    text-align: center;
 }
 
 .list_link_now {
@@ -41,24 +47,18 @@
     text-align: center;
 }
 
-.list_link {
-    padding: 10px 2px;
-    color: #B07D31;
-    text-align: center;
-}
-
 .list_link:hover {
     color: #85603F;
 }
 
 
-/* --------------------bouquet menu-------------------- */
+/* --------------------bouquet_menu-------------------- */
 
 .bouquet_menu {
     width: 80%;
 }
 
-.menu_list {
+.bouquet_menu_list {
     display: flex;
     justify-content: space-between;
     padding: 5em 5em;

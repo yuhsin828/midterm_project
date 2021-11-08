@@ -27,10 +27,10 @@
                     <a href="./about_us.html" class="nav_link">關於我們</a>
                 </li>
                 <li class="nav_item">
-                    <a href="#" class="nav_link">花品選購</a>
+                    <a href="./bouquet.html" class="nav_link">花品選購</a>
                     <ul class="nav_sublist">
                         <div class="nav_sublist_part">
-                            <li class="sublist_item"><a href="#" class="sublist_link_title">花藝設計</a></li>
+                            <li class="sublist_item"><a href="./bouquet.html" class="sublist_link_title">花藝設計</a></li>
                             <li class="sublist_item"><a href="./bouquet.html" class="sublist_link">精美花束</a></li>
                             <li class="sublist_item"><a href="#" class="sublist_link">造型盆花</a></li>
                             <li class="sublist_item"><a href="#" class="sublist_link">藝術花籃</a></li>
@@ -74,10 +74,40 @@
         </header>
 
         <!--banner-->
-        <banner>
-            <img src="./image/banner.png" alt="banner" class="banner">
-        </banner>
 
+        <!-- <banner>
+            <img src="./image/banner.png" alt="banner" class="banner">
+        </banner> -->
+
+        <!-- Slideshow container -->
+        <div class="slideshow-container">
+            <!-- Full-width images with number and caption text -->
+            <div class="mySlides fade">
+                <img src="./image/banner_1.png" style="width:100%">
+            </div>
+
+            <div class="mySlides fade">
+                <img src="./image/banner_2.png" style="width:100%">
+            </div>
+
+            <div class="mySlides fade">
+                <img src="./image/banner_3.png" style="width:100%">
+            </div>
+
+            <!-- Next and previous buttons -->
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        </div>
+        <br>
+
+        <!-- The dots/circles -->
+        <div style="text-align:center">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+        </div>
+
+        <!--main-->
         <main class="main">
             <!-- 花品選購-->
             <h2 class="main_title">花品選購</h2>
@@ -144,7 +174,7 @@
             <img src="./image/about_us_1.png" alt="about_us" class="about_img">
             <div class="about_info">
                 <h2 class="about_title">關於我們</h2>
-                <p class="about_text">維多利亞致力於各式花藝設計服務，一直以來秉持著顧客至上的精神，提供多元的送禮選項，希望能以細膩的心思以及高水準設計，展現出每一份送禮者的心意。 </p>
+                <p class="about_text">維多利亞致力於各式花藝設計服務，一直以來秉持著顧客至上的精神，提供多元的送禮選項，希望能以細膩的心思以及高水準設計，展現出送禮者的每一份心意。 </p>
                 <a href="./about_us.html" class="about_more">了解更多</a>
             </div>
         </article>
@@ -179,6 +209,8 @@
             <p class="copyright">Copyright © 維多利亞花坊 All Rights Reserved.</p>
         </footer>
     </div>
+
+    <script type="text/javascript" src="./js/js_home.js"></script>
 </body>
 
 </html>

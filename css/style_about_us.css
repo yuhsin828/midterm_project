@@ -8,12 +8,12 @@
 
 .about_us_info {
     width: 440px;
-    height: 280px;
-    padding: 3em 4em;
+    height: 350px;
+    padding: 4em 6em;
     margin: 2em;
     background-image: url("../image/about_us_info_bg.png");
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: 440px 350px;
 }
 
 .about_us_img {
