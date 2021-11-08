@@ -39,7 +39,8 @@ a {
     border-bottom: solid #B07D31 0.2em;
     /* position: fixed;
     top: 0;
-    width: 100%; */
+    width: 100%;
+    z-index: 2; */
 }
 
 .header_logo {
