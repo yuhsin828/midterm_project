@@ -43,7 +43,7 @@ a {
 }
 
 .header_logo {
-    margin: 1em 30em 0 10em;
+    margin: 1em 10em 0 10em;
 }
 
 .logo {
@@ -125,9 +125,10 @@ a {
     color: #85603F;
 }
 
-.sublist_link_title:hover {
+
+/* .sublist_link_title:hover {
     color: #503310;
-}
+} */
 
 .sublist_link:hover {
     background-color: rgba(176, 125, 49, 60%);
@@ -152,8 +153,8 @@ a {
     filter: drop-shadow(0px 0px 0.5px #85603F);
 }
 
-.icon_member:hover {
-    filter: drop-shadow(0px 0px 0.5px #85603F);
+.icon_shopping_list:hover {
+    filter: drop-shadow(0px 0px 0.2px #85603F);
 }
 
 
@@ -288,6 +289,7 @@ a {
 .menu_list {
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
     padding: 5em 5em;
 }
 
@@ -365,6 +367,7 @@ a {
     width: 50%;
     height: auto;
     margin-right: 50px;
+    align-self: center;
 }
 
 
@@ -436,11 +439,11 @@ a {
     font-size: 1.6em;
     color: #FEFEFE;
     text-align: left;
-    margin: 10px 0;
+    margin: 10px 10px;
 }
 
 .footer_icon {
-    margin: 0 1em;
+    margin: 0 10px;
 }
 
 .footer_icon:hover {
